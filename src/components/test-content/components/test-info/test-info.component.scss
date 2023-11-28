@@ -1,0 +1,56 @@
+@import "src/assets/styles/variables";
+
+p{
+  margin: 0;
+  font-size: 20px;
+}
+
+.test-info-card{
+  margin: 15px 0 5px 0;
+  height: calc(100% - $header-height);
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+}
+
+li{
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+}
+
+.current-question{
+  background: #c4c4c4;
+}
+
+.right-answer{
+  background: #3cc43c;
+}
+
+.wrong-answer{
+  background: #ff5454;
+}
+
+.progress{
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.progress-bar{
+  border: 1px solid black;
+  border-radius: 30px;
+  height: 5px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.progress-bar-inner{
+  left: 0;
+  border-radius: 30px;
+  height: 5px;
+}

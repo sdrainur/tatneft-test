@@ -1,0 +1,17 @@
+@import "src/assets/styles/variables";
+
+.content-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: calc(100vh - $header-height);
+}
+
+.left{
+  width: 20%;
+}
+
+.right{
+  width: 80%;
+  padding-left: 20px;
+}

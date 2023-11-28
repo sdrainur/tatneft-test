@@ -1,0 +1,18 @@
+@import "src/assets/styles/variables";
+
+.question-card{
+  height: calc(100% - $header-height - 20px);
+  margin: 15px 0 5px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.question-text{
+  font-size: 30px;
+}
+
+.question-answer{
+  display: flex;
+  flex-direction: row;
+}
