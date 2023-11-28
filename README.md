@@ -47,6 +47,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Пояснительная записка
 
+В качестве пакетного менеджера используется Yarn
+
 В написанном приложении создается 3 Effector store:
 
 -   resultStore (необходим для хранения результатов и отслежтивания прогресса прохождения теста)
